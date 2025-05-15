@@ -21,7 +21,7 @@
                 <tbody>
                     @foreach ($mv as $idx => $m)
                        <tr>
-                        <td>{{ $m->idx+1}}</td>
+                        <td>{{ $idx+1}}</td>
                         <td>{{ $m->imDB}}</td>
                         <td>{{ $m->title}}</td>
                         <td>{{ $m->year}}</td>
